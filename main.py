@@ -88,8 +88,8 @@ def tratar_planilha(df_origem, num_fatura):
 
 # --- INTERFACE DO USUÁRIO (STREAMLIT) ---
 st.set_page_config(page_title="Tratador de Faturas", layout="wide")
-st.title("📂 Processador de Planilhas de Fatura")
-st.info("A planilha de origem será lida a partir da linha 2 (o cabeçalho original será ignorado).")
+st.title("📂 Tratamento planilha Ferragamo")
+st.info("Insira a planilha de PO (itens) do jeito que ela vem abaixo.")
 st.markdown("---")
 
 col1, col2 = st.columns(2)
